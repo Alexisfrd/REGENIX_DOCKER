@@ -17,11 +17,13 @@ module.exports = {
         name: 'rest-temp',
         script: 'bin/rest_temp.js'
       },
+        /*
       {
         name: 'P-PH',
         script: 'bin/publishToRedis.js',
         args: '-q 0 -a 21 -i 14 -n test999 -d 24-07-2029-09-27-43 -f 1 -c 1'
       },
+      */
       {
         name: 'P-DO',
         script: 'bin/publishToRedis.js',
