@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 let derniereDate = null; // Initialisation de derniereDate
 
 function POST(jdata, url, callback) {
-    axios.post('http://localhost:3000' + url, jdata)
+    axios.post('http://api:3000' + url, jdata)
         .then((res) => {
             callback(res.data);
         }).catch((err) => {
