@@ -18,7 +18,7 @@ timeout /T 10
 
 echo Lancement de PM2 avec ecosystem.config.js...
 cd D:\OneDrive - ESEO\Eseo\canada\Regenix\Application\REGENIX\Serveur
-start /B pm2 start ecosystem.config.js
+start /B pm2 start testEcosystem.config.js
 
 echo Lancement de du serveur http pour stocker csv...
 cd C:\Users\hello\Documents\REGENIX\Serveur\csv

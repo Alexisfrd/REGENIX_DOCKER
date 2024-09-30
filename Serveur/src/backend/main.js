@@ -279,7 +279,8 @@ function run_express() {
  * Define the main function for main module
  */
 function run() {
-    const IP = process.env.IP || "127.0.0.1";
+    //const IP = process.env.IP || "127.0.0.1";
+    const IP = process.env.IP || "rabbitmq";
     const username = process.env.user || 'guest';
     const password = process.env.password || 'guest';
     const opt = { credentials: require('amqplib').credentials.plain(username, password) };
